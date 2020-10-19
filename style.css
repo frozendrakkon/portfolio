@@ -1,11 +1,7 @@
 
-*{
-    /* border: 1px solid red; */
-}
 body{
     margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
-
 }
 
 a{
@@ -27,6 +23,7 @@ a:hover{color: #FB893B;}
 .header__about-me, .header__my-stack, .header__my-projects{
     margin-left: 2%;
 }
+
 .header__logo{
     margin: 0 0 -1% -1%;
     width: 5%;
@@ -37,6 +34,7 @@ a:hover{color: #FB893B;}
     float: right;
     border-bottom: 1px solid #D082FF;
 }
+
 .main__container{
     background-color: rgba(255, 220, 194, 0.3);
     min-height: 450px;
@@ -49,6 +47,7 @@ a:hover{color: #FB893B;}
     -webkit-animation-timing-function: ease;    
     visibility: visible !important;           
 }
+
 .main__about-me{
     box-sizing: border-box;
     width: 65%;
@@ -61,11 +60,13 @@ a:hover{color: #FB893B;}
     width: 13%;
     height: 13%;
 }
+
 h2{
     font-size: 72px;
     color: rgba(208, 130, 255, 0.15);
 
 }
+
 .main__my-history-container{
     animation-name: animation-main__my-history-container;
     -webkit-animation-name: animation-main__my-history-container;
@@ -75,88 +76,90 @@ h2{
     -webkit-animation-timing-function: ease;    
     visibility: visible !important;
 }
+
 .main__title-my-history{
     text-align: center;
     margin: -5% 0 0 0;
 }
+
 .main__my-history{
     margin: 4% 0 0 0;
 }
+
 .main__books{
     text-align: center;
 }
+
 .main__books img{
     padding: 1%;
     width: 20%;
 }
+
 .main__my-stack-container{
     background-color: rgba(255, 220, 194, 0.3);
     margin-top: 1%;
 }
+
 .main__my-stack-container h2{
     color: rgba(255, 255, 255, 0.795);
 }
+
 .main__my-stack-title{
     margin: 0 0 5% 0;
     text-align: center;
-} 
+}
+
 .main__my-stack-one{
     display: flex;
 }
+
 .main__my-stack-one b{
     margin: 0 auto;
 }
+
 .main__my-stack-two{
     display: flex;
 }
+
 .main__my-stack-two b{
     margin: 0 auto;
 }
+
 .main__my-projects-title{
     text-align: center;
     margin: -5% 0 5% 0;
 }
+
 .main__my-prjects-img{
-    display: inline-flex;
+    text-align: center;
+    display: flex;
     justify-content: space-around;
 }
+
 .main__my-prjects-img a{
     flex: 0 0 15%;
 }
+
 .main__my-prjects-img img{
     width: 100%;
 }
+
 .footer{
     background-color: rgba(255, 220, 194, 0.3);
     min-height: 450px;
     margin-top: 1%;
     text-align: center;
 }
+
 .footer__container h3{
     padding-top: 3%;
 }
+
 .footer__container img{
     padding-top: 2%;
     width: 3%;
     height: 3%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @keyframes animation-header{
     0%{opacity: 0;}
